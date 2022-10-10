@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: [self-hosted, devextreme-shr2]
+    runs-on: self-hosted
     timeout-minutes: 60
 
     steps:
